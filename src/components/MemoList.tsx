@@ -1,3 +1,4 @@
+import { Feather } from '@expo/vector-icons';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
@@ -10,7 +11,7 @@ export const MemoList = () => {
           <Text style={styles.memoListItemDate}>2023年2月10日</Text>
         </View>
         <View>
-          <Text>X</Text>
+          <Feather name="x" size={28} color="gray" />
         </View>
       </View>
       <View style={styles.memoListItem}>
@@ -19,7 +20,7 @@ export const MemoList = () => {
           <Text style={styles.memoListItemDate}>2023年2月10日</Text>
         </View>
         <View>
-          <Text>X</Text>
+        <Feather name="x" size={28} color="gray" />
         </View>
       </View>
       <View style={styles.memoListItem}>
@@ -28,7 +29,7 @@ export const MemoList = () => {
           <Text style={styles.memoListItemDate}>2023年2月10日</Text>
         </View>
         <View>
-          <Text>X</Text>
+          <Feather name="x" size={28} color="gray" />
         </View>
       </View>
     </View>
