@@ -15,6 +15,7 @@ export const MemoListScreen = () => {
 }
 //tete
 //tetete
+///tetetete
 const styles = StyleSheet.create({
   container: {
     flex: 1,
