@@ -2,7 +2,7 @@ import React from 'react';
 import { KeyboardAvoidingView, StyleSheet, TextInput, View } from "react-native";
 import { AppBar } from "../components/AppBar";
 import { CircleButton } from '../components/CircleButton';
-
+//eeeet
 export const MemoEditScreen = () => {
   return (
       <KeyboardAvoidingView style={styles.container} behavior='height' >
