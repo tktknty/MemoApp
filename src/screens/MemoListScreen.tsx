@@ -14,6 +14,7 @@ export const MemoListScreen = () => {
   )
 }
 //tete
+//tetete
 const styles = StyleSheet.create({
   container: {
     flex: 1,
