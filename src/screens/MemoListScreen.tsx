@@ -13,7 +13,7 @@ export const MemoListScreen = () => {
     </View>
   )
 }
-
+//tete
 const styles = StyleSheet.create({
   container: {
     flex: 1,
