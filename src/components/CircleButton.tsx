@@ -1,15 +1,18 @@
+import { Feather } from '@expo/vector-icons';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 type Props = {
-  children: string,
+  name: string,
 }
 
 export const CircleButton: React.FC<Props> = (props) => {
-  const { children } = props;
+  const { name } = props;
   return (
     <View style={styles.circleButton}>
-      <Text style={styles.circleButtonLabel}>{children}</Text>
+      {/* <Text style={styles.circleButtonLabel}>{children}</Text>
+      TODO How can i fix defalut Styles 既存のStyeの上書きをするか */}
+      <Feather name={name} size={36} color="white" />
     </View>
   );
 }
