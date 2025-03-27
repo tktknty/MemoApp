@@ -36,6 +36,7 @@ export const MemoList = () => {
 }
 
 //test
+//test
 const styles = StyleSheet.create({
   memoListItem: {
     backgroundColor: '#fff',
